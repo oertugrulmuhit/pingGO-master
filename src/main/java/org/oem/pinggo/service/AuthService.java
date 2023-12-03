@@ -4,7 +4,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.jetbrains.annotations.NotNull;
 import org.oem.pinggo.model.dtos.MessageResponse;
 import org.oem.pinggo.model.dtos.UserInfoResponse;
-import org.oem.pinggo.model.entity.VerificationToken;
 import org.oem.pinggo.request.LoginRequest;
 import org.oem.pinggo.request.SignupRequest;
 import org.springframework.http.ResponseEntity;

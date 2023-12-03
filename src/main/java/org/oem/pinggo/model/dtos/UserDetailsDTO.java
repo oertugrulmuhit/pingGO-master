@@ -14,8 +14,6 @@ import java.util.Objects;
 @Slf4j
 public class UserDetailsDTO implements UserDetails {
 
-    private static final long serialVersionUID = 1L;
-
     private final Long id;
 
     private final String username;

@@ -1,16 +1,13 @@
 package org.oem.pinggo.repository;
 
 import org.jetbrains.annotations.NotNull;
-import org.oem.pinggo.model.dtos.OrderDTO;
 import org.oem.pinggo.model.entity.Order;
-import org.oem.pinggo.model.entity.Seller;
 import org.oem.pinggo.model.entity.User;
 import org.oem.pinggo.model.enums.OrderStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 

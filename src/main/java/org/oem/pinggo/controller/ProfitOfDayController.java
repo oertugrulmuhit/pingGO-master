@@ -1,7 +1,6 @@
 package org.oem.pinggo.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.oem.pinggo.model.dtos.ProfitOfDayDTO;
 import org.oem.pinggo.service.ProfitOfDayService;
